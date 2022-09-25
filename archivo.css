@@ -896,7 +896,7 @@ footer {
     .botonmotiv {
         font-size: small;
     }
-
+  
     .icono {
         width: 150px;
     }
@@ -958,5 +958,12 @@ footer {
 
     .sidebar-fondo {
         padding: 5%;
+    }
+}
+@media screen and (max-width:465px) {
+    .iconocentro { display: flex;
+      flex-direction: column; 
+      text-align: center;
+       
     }
 }
